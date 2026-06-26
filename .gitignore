@@ -1,0 +1,27 @@
+# Compiled binaries and object files
+*.exe
+*.obj
+*.o
+*.pdb
+*.ilk
+/dpi_engine
+/dpi_simple
+/packet_analyzer
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# Local IDE configuration directories
+.vscode/
+.idea/
+
+# Temp/Output pcap files
+output.pcap
+output_simple.pcap
+output_mt.pcap
+*filtered.pcap
+
+# Temporary/build directories
+build/
+bin/
